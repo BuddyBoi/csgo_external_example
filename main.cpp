@@ -3,7 +3,7 @@
 #include <Windows.h>
 #include <TlHelp32.h>
 
-//Perfect function from guidedhacking. No need to make your own
+//Perfect function from guidedhacking. No need to change it or make your own
 uintptr_t module_base_address( DWORD procId, const wchar_t* modName )
 {
     uintptr_t modBaseAddr = 0;
