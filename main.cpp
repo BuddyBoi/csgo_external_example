@@ -62,7 +62,7 @@ int main()
     {
         //Write to the memory address
         //Pro tip. Make a template for reading and writing. Make work quicker and custom structs easier
-        WriteProcessMemory( h_csgo, (LPVOID)(local_player + offsets::local_player), &new_flash, sizeof( new_flash ), nullptr );
+        WriteProcessMemory( h_csgo, (LPVOID)(local_player + offsets::flash_max_alpha), &new_flash, sizeof( new_flash ), nullptr );
         Sleep( 50 );
     }
 
